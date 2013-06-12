@@ -18,7 +18,7 @@ foreach($array as $person){
 	    $mail->Host     = "ssl://smtp.gmail.com";
 	    $mail->Port     = 465;
 	    $mail->Username = "myturn.pr@gmail.com";
-	    $mail->Password = "baconpancakes";
+	    $mail->Password = "**************";
 	    $mail->FromName = "Myturn";
 	    $mail->Subject  = "Your Turn";
 	    $mail->Body     = "Your Turn is close $info[2]";	
